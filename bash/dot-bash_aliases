@@ -1,0 +1,13 @@
+alias cp='cp --verbose'
+alias dir='dir --color=always'
+alias grep='grep --color=always'
+alias grep='grep --color=always'
+alias ln='ln --verbose'
+alias ls='ls --color=always --human-readable --classify -l'
+alias lsa='ls --almost-all'
+alias mkdir='mkdir --verbose --parents'
+alias mv='mv --verbose'
+alias now\!="date +'%A %B %e %T.%N %::z %Z %Y'"
+alias rename='rename --verbose'
+alias rm='rm --verbose'
+alias vdir='vdir --color=always'
