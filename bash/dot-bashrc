@@ -183,7 +183,7 @@ function __set_ps1()
     #region
     if [ -n "$VIRTUAL_ENV" ]; then
         __PS1+="\n"
-        __PS1+='\[\e[0;30;42;3m\]'$'\u2022 '"$(pyenv which python 2>/dev/null || which python)"'\[\e[m\]'
+        __PS1+='\[\e[0;30;42;3m\]'$'\u2022 '"$(which python)"'\[\e[m\]'
     fi
     #endregion
 
