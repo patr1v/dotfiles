@@ -210,4 +210,6 @@ fi
 
 # // DIRENV //
 # Note: very important, this should be at the VERY END
-eval "$(direnv hook bash)"
+if direnv --version &> /dev/null; then
+    eval "$(direnv hook bash)"
+then
