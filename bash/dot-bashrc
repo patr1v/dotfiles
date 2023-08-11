@@ -212,4 +212,4 @@ fi
 # Note: very important, this should be at the VERY END
 if direnv --version &> /dev/null; then
     eval "$(direnv hook bash)"
-then
+fi
