@@ -193,7 +193,7 @@ function __set_ps1()
     export PS1="${__PS1}"
 }
 PROMPT_COMMAND='__set_ps1'
-EDITOR=vim
+export EDITOR=vim
 
 
 
