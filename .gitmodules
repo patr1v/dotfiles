@@ -1,6 +1,7 @@
 [submodule "git"]
 	path = git
 	url = git@github.com:patr1v/git.git
+	branch = master
 [submodule "vim/dot-vim/pack/colors/opt/vim-monokai"]
 	path = vim/dot-vim/pack/colors/opt/vim-monokai
 	url = https://github.com/crusoexia/vim-monokai.git
