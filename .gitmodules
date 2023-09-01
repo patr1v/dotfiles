@@ -5,9 +5,12 @@
 [submodule "vim/dot-vim/pack/colors/opt/vim-monokai"]
 	path = vim/dot-vim/pack/colors/opt/vim-monokai
 	url = https://github.com/crusoexia/vim-monokai.git
+	branch = master
 [submodule "vim/dot-vim/pack/plugins/start/lightline"]
 	path = vim/dot-vim/pack/plugins/start/lightline
 	url = https://github.com/itchyny/lightline.vim
+	branch = master
 [submodule "vim/dot-vim/pack/plugins/start/vim-rainbow"]
 	path = vim/dot-vim/pack/plugins/start/vim-rainbow
 	url = https://github.com/frazrepo/vim-rainbow
+	branch = master
